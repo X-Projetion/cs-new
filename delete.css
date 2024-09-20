@@ -1,0 +1,109 @@
+body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, rgba(44, 62, 80, 0.6), rgba(52, 152, 219, 0.6)), url('https://i.ibb.co/hsJVLqX/width-1366.jpg') no-repeat center center fixed; 
+            background-size: cover; /* Mengatur ukuran gambar agar menutupi seluruh area */
+            background-attachment: fixed; /* Mengatur agar gambar tidak bergerak saat scrolling */
+            background-position: center center; /* Menempatkan gambar di tengah */
+            color: #ecf0f1;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.85);
+            padding: 40px;
+            border-radius: 25px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+            text-align: center;
+        }
+
+        h1 {
+            color: #e74c3c;
+            font-size: 3rem;
+            margin: 0 0 20px;
+            font-weight: 900;
+            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+        }
+
+        h2 {
+            color: #f39c12;
+            font-size: 1rem;
+            margin: 0 0 20px;
+            font-weight: 700;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+        }
+
+        a {
+            color: #f06292;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 600;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            transition: text-shadow 0.3s, color 0.3s;
+        }
+
+        a:hover {
+            color: #ec407a;
+            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        li {
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+        }
+
+        .success-message {
+            color: #2ecc71;
+        }
+
+        .error-message {
+            color: #e74c3c;
+        }
+
+        .button-container {
+            margin-top: 30px;
+        }
+
+        .button-container button {
+            padding: 16px 32px;
+            background: linear-gradient(135deg, #e74c3c, #f39c12);
+            color: #fff;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 20px;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+        }
+
+        .button-container button:hover {
+            background: linear-gradient(135deg, #f39c12, #e74c3c);
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            color: #fff;
+            background: rgba(0, 0, 0, 0.9);
+            padding: 15px 0;
+            text-align: center;
+            font-size: 14px;
+            border-top: 2px solid #e74c3c;
+        }
